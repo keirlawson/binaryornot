@@ -1,0 +1,15 @@
+[package]
+name = "binaryornot"
+version = "1.0.0"
+authors = ["Keir Lawson <keirlawson@gmail.com>"]
+edition = "2018"
+description = "Detect whether a file is binary or not"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/keirlawson/binaryornot"
+readme = "README.md"
+categories = ["filesystem"]
+keywords = ["docker", "credential", "container"]
+
+[dependencies]
+chardet = "0.2"
+encoding = "0.2.33"

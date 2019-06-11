@@ -8,6 +8,16 @@ use encoding::label::encoding_from_whatwg_label;
 
 const STARTING_CHUNK_SIZE: u64 = 1024;
 
+/// Test whether or not a file at a given path is a binary.
+/// 
+/// Example:
+/// ```no_run
+/// use binaryornot;
+///
+/// if binaryornot::is_binary("/path/to/some/file").expect("unable to read file") {
+///    println!("a binary!");
+/// }
+/// ```
 pub fn is_binary<P: AsRef<Path>>(path: P) -> Result<bool> {
     let chunk = get_starting_chunk(path, STARTING_CHUNK_SIZE)?;
     Ok(is_binary_string(chunk))

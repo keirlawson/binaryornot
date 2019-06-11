@@ -18,7 +18,7 @@ binaryornot = "1.0"
 ```rust
 use binaryornot;
 
-if binaryornot::is_binary("/path/to/some/file") {
+if binaryornot::is_binary("/path/to/some/file").expect("unable to read file") {
     println!("a binary!");
 }
 ```

@@ -8,7 +8,7 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/keirlawson/binaryornot"
 readme = "README.md"
 categories = ["filesystem"]
-keywords = ["docker", "credential", "container"]
+keywords = ["binary", "file", "text"]
 
 [dependencies]
 chardet = "0.2"

@@ -66,7 +66,6 @@ fn is_binary_string(bytes_to_check: Vec<u8>) -> bool {
         return false;
     }
 
-    //FIXME any way to avoid lambda here?
     // Now check for a high percentage of ASCII control characters
     // Binary if control chars are > 30% of the string
     let non_low_char_count = bytes_to_check.iter().filter(|x| !is_printable_ascii(x)).count();

@@ -13,3 +13,6 @@ keywords = ["binary", "file", "text"]
 [dependencies]
 chardet = "0.2"
 encoding = "0.2.33"
+
+[badges]
+travis-ci = { repository = "keirlawson/binaryornot" }

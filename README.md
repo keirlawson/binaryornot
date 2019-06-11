@@ -2,6 +2,8 @@ binaryornot
 ===========
 
 [![Build Status](https://travis-ci.org/keirlawson/binaryornot.svg?branch=master)](https://travis-ci.org/keirlawson/binaryornot)
+[![Latest version](https://img.shields.io/crates/v/binaryornot.svg)](https://crates.io/crates/binaryornot)
+[![Documentation](https://docs.rs/binaryornot/badge.svg)](https://docs.rs/binaryornot)
 
 A Rust port of [binaryornot](https://github.com/audreyr/binaryornot), 
 letting you detect whether a file is binary or text.
